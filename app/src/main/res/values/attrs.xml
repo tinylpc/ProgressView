@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DrawableProgressView">
+        <attr name="maxProgress" format="integer" />
+        <attr name="progressColor" format="color" />
+        <attr name="src" format="reference" />
+        <attr name="orientation" format="enum">
+            <enum name="left_to_right" value="0" />
+            <enum name="bottom_to_top" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgressView">
+        <attr name="cpv_maxProgress" format="integer" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="radius" format="dimension" />
+        <attr name="cpv_progressColor" format="color" />
+        <attr name="start" format="enum">
+            <enum name="right" value="0" />
+            <enum name="bottom" value="90" />
+            <enum name="left" value="180" />
+            <enum name="top" value="270" />
+        </attr>
+    </declare-styleable>
+</resources>
